@@ -1,0 +1,74 @@
+.cabecalho{
+    display:flex;
+    margin: 0px 0px;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(19, 19, 19);
+}
+.cabecalho-text{
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+.cabecalho-photo{
+    filter: invert(1);
+}
+.game-group{
+    display: flex;
+    flex-wrap: wrap;
+    align-content:flex-start;
+    background-color: rgb(105, 105, 105);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.game{
+    display: flex;
+    width: 200px;
+    height:min-content;
+    padding: 10px;
+    margin: 5px;
+    background-color: rgb(59, 59, 59);
+    border-radius: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    flex-direction:column;
+    
+}
+.game-pic:hover{
+    cursor: pointer;
+    filter: blur(1px)
+}
+.tab{
+    margin-top: 30px;
+    height: 800px;
+    width: 20px;
+    background-color: rgb(19, 19, 19);
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.tab:hover{
+    width: 200px;
+}
+.meio{
+    display: flex;
+}
+.meio-contact{          /* Acredito que um método melhor seria criar uma stylesheet para cada .html, */
+    display: flex;      /* porém já q há pouca diferença, decidi colocar dentro do mesmo */
+    align-items: center;
+    color: white;
+    font-size: 500%;
+    font-family: 'Ubuntu', sans-serif;
+    justify-content: space-around;
+    background-color: rgb(51, 51, 51);
+}
+body{
+    margin: 0px;
+    background-color: rgb(43, 43, 43);
+}
+@media (max-width: 700px){
+    p{
+        display:none
+    }
+}

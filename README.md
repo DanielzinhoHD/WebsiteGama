@@ -1,0 +1,1 @@
+Estes arquivos foram criados para praticar as aulas da Gama Academy
